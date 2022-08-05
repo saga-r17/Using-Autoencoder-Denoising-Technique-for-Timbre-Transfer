@@ -26,4 +26,6 @@ Unlike other characteristics of a sound, it's hard to define timbre in terms of 
 
 # Result
 
+![This is an image](/output-audio/generated-spectrogram.png)
+
 
