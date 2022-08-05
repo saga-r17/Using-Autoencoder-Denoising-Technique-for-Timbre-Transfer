@@ -25,7 +25,14 @@ Unlike other characteristics of a sound, it's hard to define timbre in terms of 
 
 
 # Result
+#### Spectrogram of Accordian passed as input
+![Original Spectrogram of Accordian](/output_audio/original.png)
 
-![This is an image](/output-audio/generated-spectrogram.png)
+#### Spectrogram of Flute reconstructed as output
+![Generated Spectrogram of Flute](/output_audio/generated.png)
+
+
+# Output Audio
+Output audio is in the form of .wav file in the directory /output_audio. Reconstructed audio resembles the characteristics of flute but still posses some noise due to noise in training data set & phase artifacts due to poor phase representation in output audio.
 
 
