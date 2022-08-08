@@ -33,10 +33,9 @@ For this project I've trained Autoencoder learn to transfer flute timbre to any 
 # Output Audio
 Output audio is in the form of .wav file in the directory /output_audio. Reconstructed audio resembles the characteristics of flute but still posses some noise due to noise in training data set & phase artifacts due to poor phase reconstruction in output audio.
 
-# Constraints of this project
+# Constraints of Project Workflow
 
 This project approaches from the perpective that for given fundamental frequency of given input sound Autoencoder can generate a sound of flute for that fundamental frequency by learning the patterns of flute from training data. Following are the constraint for running this model:
 
 * Works only for monophonic sound ( YIN algorithm works only for monophonic sound )
 * Size of input and output are fixed ( Autoencoder accepts only predefined size for input and generates output of same size )
-* Model cannot predict properly for high changes in notes ( This limitation is because of small training datasets resulting into poor training of model)
