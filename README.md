@@ -26,24 +26,16 @@ For this project I've trained Autoencoder learn to transfer flute timbre to any 
 # Result
 #### Spectrogram of Accordian passed as input
 ![Original Spectrogram of Accordian](/output_audio/original.png)
-
-
 https://user-images.githubusercontent.com/68271682/218297860-7c306719-3629-4cf5-9b0f-e13408d13804.mp4
 
 
 #### Spectrogram of Flute reconstructed as output
 ![Generated Spectrogram of Flute](/output_audio/generated.png)
-
-# Output Audio 
-Reconstructed audio resembles the characteristics of flute but posses some noise due to noise in training data set & phase artifacts due to poor phase reconstruction in output audio.
-
-
-https://user-images.githubusercontent.com/68271682/218297912-9dc0eda1-70d6-4fc3-8081-30be7499ba23.mp4
-
-
-
 https://user-images.githubusercontent.com/68271682/218297884-a7bfdffb-19a1-4699-9210-7752682c844d.mp4
 
+# Output Audio 
+* The noise present in the audio is a result of the presence of noise in the training data set that was used to generate the audio.
+* In addition, the phase reconstruction in the output audio is not ideal and has resulted in phase artifacts that can be heard in the final audio. This issue is also a known challenge in audio signal processing and is a result of limitations in the current methods for phase reconstruction
 
 # Constraints of Project Workflow
 
