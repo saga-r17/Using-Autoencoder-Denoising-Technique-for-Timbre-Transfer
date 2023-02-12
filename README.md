@@ -27,11 +27,23 @@ For this project I've trained Autoencoder learn to transfer flute timbre to any 
 #### Spectrogram of Accordian passed as input
 ![Original Spectrogram of Accordian](/output_audio/original.png)
 
+
+https://user-images.githubusercontent.com/68271682/218297860-7c306719-3629-4cf5-9b0f-e13408d13804.mp4
+
+
 #### Spectrogram of Flute reconstructed as output
 ![Generated Spectrogram of Flute](/output_audio/generated.png)
 
-# Output Audio
-Output audio is in the form of .wav file in the directory /output_audio. Reconstructed audio resembles the characteristics of flute but still posses some noise due to noise in training data set & phase artifacts due to poor phase reconstruction in output audio.
+# Output Audio 
+Reconstructed audio resembles the characteristics of flute but posses some noise due to noise in training data set & phase artifacts due to poor phase reconstruction in output audio.
+
+
+https://user-images.githubusercontent.com/68271682/218297912-9dc0eda1-70d6-4fc3-8081-30be7499ba23.mp4
+
+
+
+https://user-images.githubusercontent.com/68271682/218297884-a7bfdffb-19a1-4699-9210-7752682c844d.mp4
+
 
 # Constraints of Project Workflow
 
